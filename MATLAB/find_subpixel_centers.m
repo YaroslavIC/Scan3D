@@ -27,7 +27,7 @@ function [all_centers]=find_subpixel_centers(filename)
     peaks = find_local_peaks(img_double);
     
     % Визуализация исходного изображения
-    figure;
+     
     imshow(img_double, []);
     hold on;
     title('Найденные центры точек');
